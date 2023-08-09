@@ -1,0 +1,3 @@
+function binpwd(){
+	return dir;
+}
