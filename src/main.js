@@ -1,16 +1,17 @@
-document.addEventListener('DOMContentLoaded', () => {
-	const input = document.querySelector('#input');
-	const output = document.querySelector('#output')
-});
-
-input.addEventListener('keyup', (e) => {
-	if (e.keyCode === 13) {
-		const inputValue = input.value;
-		const outputValue = executeCommand(inputValue);
-		output.textContent = outputValue;
-		input.value = ''
-	}
-});
+window.onload = function() {
+	document.addEventListener('DOMContentLoaded', () => {
+		const input = document.querySelector('#input');
+		const output = document.querySelector('#output')
+	});
+	input.addEventListener('keyup', (e) => {
+		if (e.keyCode === 13) {
+			const inputValue = input.value;
+			const outputValue = executeCommand(inputValue);
+			output.textContent = outputValue;
+			input.value = ''
+		}
+	});
+}
 
 const commands = {
 	date: () => new Date().toLocaleString(),
