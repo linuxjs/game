@@ -29,7 +29,7 @@ function executeCommand(command) {
 	return handler()
 }
 
-function readTheFile(string path) {
+async function readTheFile(path) {
 	let file;
 	if (changedOrAddFile(path) != null) {
 		file = changeedOrAddFile(path)
@@ -40,10 +40,10 @@ function readTheFile(string path) {
 	return file
 }
 
-function editTheFile(string path, string file) {
+function editTheFile(path, file) {
 	window.localStorage.setItem(path, file)
 }
 
-function changedOrAddFile(string path) {
+function changedOrAddFile(path) {
 	window.localStorage.getItem(path)
 }
