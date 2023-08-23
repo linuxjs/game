@@ -1,2 +1,2 @@
-function binls(string dir){
+function binls(dir){
 }

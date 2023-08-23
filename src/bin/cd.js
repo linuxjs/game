@@ -1,2 +1,2 @@
-function bincd(string goto){
+function bincd(goto){
 }

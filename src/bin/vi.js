@@ -1,2 +1,2 @@
-function binvi(string path){
+function binvi(path){
 }

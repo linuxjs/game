@@ -1,2 +1,2 @@
-function bincat(string dir){
+function bincat(dir){
 }

@@ -1,2 +1,2 @@
-function binsh(string path){
+function binsh(path){
 }

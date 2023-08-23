@@ -1,2 +1,2 @@
-function binjs(string path){
+function binjs(path){
 }
